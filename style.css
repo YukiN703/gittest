@@ -9,9 +9,9 @@
 }
 
 .cont {
-	width: 700px;
-	height: 500px;
-	margin: 0 auto;
+	width: 800px;
+	height: 200px;
+	margin: 0 auto 20px;
 	padding-top: 60px;
 	border: solid 2px #fff;
 	background: #FFF6BA;
@@ -23,4 +23,19 @@
 }
 .title1 {
 	font-size: 2em bold;
+}
+
+.boxin {
+	margin: 0 auto;
+	width: 800px;
+	height: 500px;
+}
+
+.box {
+	width: 320px;
+	height: 420px;
+	float: left;
+	border: solid 2px pink;
+	margin: 0 calc( (710px - 640px) / 2);
+	background: #FFF6BA;
 }
