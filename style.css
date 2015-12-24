@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 .container {
-	width: 100%;
+	width: 960px;
 	height: 750px;
+	margin: 0 auto;
 	padding-top: 60px;
 	background: tomato;
 }
@@ -13,11 +14,13 @@
 	margin: 0 auto;
 	padding-top: 60px;
 	border: solid 2px #fff;
+	background: #FFF6BA;
 }
 
 .title1,.con_p1 {
-	color: #fff;
+	color: #6B3333;
 	text-align: center;
 }
-
-
+.title1 {
+	font-size: 2em bold;
+}
